@@ -1,0 +1,25 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+i                                                                 0x0260       4
+mstt1                                                             0x0264       4
+mstt2                                                             0x0268       4
+mstt3                                                             0x026C      16
+mstt4                                                             0x027C      16
+a_p                                                               0x028C       2
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+j                                                                 R4,R5        2
+k                                                                 R6,R7        2
+inc                                                               R8,R9        2
+state                                                             R11          1
+rot                                                               R10          1
+m_p                                                               R12,R13      2
+stsp                                                              R2.0      1bit
+reverse_aim                                                       R2.1      1bit
